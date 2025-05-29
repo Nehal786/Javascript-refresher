@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="back" style="background-color: red;">
+    <!-- <button id="add">Add item</button> -->
+     <button id="change">Change background colour</button>
+     
+</body>
+<script>
+ 
+
+    // change background color
+    const button = document.querySelector("#change");
+    const back= document.querySelector("#back");
+    button.addEventListener('click', () => {
+        const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        back.style.background = randomColor;
+    })
+
+
+
+
+</script>
+</html>

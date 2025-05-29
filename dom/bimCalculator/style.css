@@ -1,0 +1,13 @@
+body{
+    margin:0;
+}
+
+.container{
+  margin: 100px auto 100px;
+  width: 30%;
+  text-align: center;
+  background-color: grey;
+}
+h1{
+    padding: 20px;
+}

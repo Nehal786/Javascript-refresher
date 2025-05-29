@@ -1,0 +1,68 @@
+body{
+    margin:0;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(186, 178, 178);
+    display: flex;
+    justify-content: center;
+    
+    
+
+    
+}
+/* a{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    
+} */
+
+.btn{
+    width: 10%;
+    margin: 10px 0 10px 10px; /*top right bottom left*/
+    background-color: rgb(242, 233, 233);
+    
+    
+}
+span{
+    display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#purple {
+  background: purple;
+}
+#yellow {
+  background: yellow;
+}
+#green {
+  background: green;
+}
+#orange {
+  background: orange;
+}
